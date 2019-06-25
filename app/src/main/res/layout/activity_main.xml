@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <Button
+        android:id="@+id/on_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:backgroundTint="#A6FFEB3B"
+        android:text="Liga"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/off_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:backgroundTint="#45352A2A"
+        android:text="Desliga"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_marginTop="70dp"
+        android:text="Lanterna by VMORAES"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+
+</LinearLayout>
